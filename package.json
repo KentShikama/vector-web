@@ -19,7 +19,7 @@
     "build:bundle": "NODE_ENV=production webpack -p lib/vector/index.js vector/bundle.js",
     "build:bundle:dev": "NODE_ENV=production webpack --optimize-occurence-order lib/vector/index.js vector/bundle.js",
     "build:staticfiles": "cpx -v node_modules/olm/olm.js vector/",
-    "build": "npm run build:staticfiles && npm run build:emojione && npm run build:css && npm run build:compile && npm run build:bundle",
+    "build": "npm run build:staticfiles && npm run build:emojione && npm run build:css && npm run build:compile && npm run build:bundle && cp -r ./vector/ ./public && rm ./public/index.html && rm ./public/*.map && mv ./public/bundle.js ./vendor/assets/javascripts/diaspora-vector-web.js && mv ./public/components.css ./vendor/assets/stylesheets/components.css && mv ./public/bundle.css ./vendor/assets/stylesheets/diaspora-vector-web.css",
     "build:dev": "npm run build:staticfiles && npm run build:emojione && npm run build:css && npm run build:compile && npm run build:bundle:dev",
     "package": "scripts/package.sh",
     "start:emojione": "cpx \"node_modules/emojione/assets/svg/*\" vector/emojione/svg/ -w",

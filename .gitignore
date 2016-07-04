@@ -1,7 +1,10 @@
 /cert.pem
 /karma-reports
 /key.pem
-/lib
+/lib/*.*
+/lib/components
+/lib/notifications
+/lib/vector
 /node_modules
 /packages/
 /vector/bundle.*
