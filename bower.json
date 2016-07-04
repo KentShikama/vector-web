@@ -1,7 +1,7 @@
 {
   "name": "diaspora-vector-web",
   "description": "A Diaspora wrapper for Vector-web",
-  "main": ["vector/bundle.js","vector/bundle.css","vector/components.css"],
+  "main": ["vector/bundle.js","vector/bundle.css"],
   "authors": [
     "Kent Shikama <kent@kentshikama.com>"
   ],
