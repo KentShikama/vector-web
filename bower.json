@@ -1,0 +1,26 @@
+{
+  "name": "diaspora-vector-web",
+  "description": "A Diaspora wrapper for Vector-web",
+  "main": ["vector/bundle.js","vector/bundle.css","vector/components.css"],
+  "authors": [
+    "Kent Shikama <kent@kentshikama.com>"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "chat",
+    "matrix",
+    "vector]"
+  ],
+  "homepage": "https://github.com/KentShikama/vector-web",
+  "ignore": [
+    "**/.*",
+    "deploy",
+    "docs",
+    "lib",
+    "node_modules",
+    "bower_components",
+    "src",
+    "scripts",
+    "test"
+  ]
+}
