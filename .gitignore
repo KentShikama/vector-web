@@ -5,6 +5,6 @@
 /lib
 /node_modules
 /packages/
-/vector/bundle.*
-/vector/components.css
 /vector/config.json
+bundle.css.map
+bundle.js.map
